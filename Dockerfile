@@ -5,6 +5,6 @@ RUN apt-get update && apt-get install -y \
 	libncurses5-dev gawk flex bison \
 	texinfo wget gettext python-setuptools \
 	python-dev patch git curl xz-utils fakeroot debhelper \
-	bc libssl-dev gcc-4.9 g++-4.9 \
+	bc libssl-dev \
 	&& rm -rf /var/cache/apt/archives/*
 
